@@ -1,7 +1,6 @@
 ﻿#include <stdio.h>
 #include <math.h>
 
-static const char 演算子記号列[] = "+-*/%";
 enum {
 #define	演算子の記号と名前(記号, 名前) 名前,
 #include "演算子の記号と名前.h"
