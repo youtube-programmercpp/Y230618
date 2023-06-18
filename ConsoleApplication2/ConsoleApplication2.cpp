@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿// ConsoleApplication2.cpp : C言語CUIサンプル2 Copyright (C) 2023 https://www.youtube.com/@ProgrammerCpp
+#include <stdio.h>
 #include <math.h>
 
 enum {
