@@ -16,9 +16,9 @@ Visual Studio 2022推奨
 
 
 ## ２つの数値と答えを入力すると演算子を推定
-### ConsoleApplication3 (C言語CUIサンプル)
+### ConsoleApplication2 (C言語CUIサンプル)
 ２進数と列挙型などの学習に適しています。
 
-### WindowsProject2 (C言語GUIサンプル)
+### WindowsProject3 (C言語GUIサンプル)
 Win32 APIを使用したダイアログボックスでの処理の学習に適しています。
 
