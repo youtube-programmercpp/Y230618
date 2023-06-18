@@ -30,15 +30,15 @@ BOOL 演算子推定(HWND hDlg)
 {
 	double a, b, c;
 	if (入力値取得(hDlg, IDC_EDIT1, &a)
-		&& 入力値取得(hDlg, IDC_EDIT2, &b)
-		&& 入力値取得(hDlg, IDC_EDIT3, &c)
-		) {
+	&&  入力値取得(hDlg, IDC_EDIT2, &b)
+	&&  入力値取得(hDlg, IDC_EDIT3, &c)
+	) {
 		int f = 0;
-		if (a + b == c) f |= 1 << 加算;
-		if (a - b == c) f |= 1 << 減算;
-		if (a * b == c) f |= 1 << 乗算;
-		if (b && a / b == c) f |= 1 << 除算;
-		if (b && fmod(a, b) == c) f |= 1 << 剰余算;
+		if (          a + b  == c) f |= 1 << 加算  ;
+		if (          a - b  == c) f |= 1 << 減算  ;
+		if (          a * b  == c) f |= 1 << 乗算  ;
+		if (b &&      a / b  == c) f |= 1 << 除算  ;
+		if (b && fmod(a,  b) == c) f |= 1 << 剰余算;
 		if (f) {
 			static const char 演算子記号列[] = {
 #define	演算子の記号と名前(記号, 名前) 記号,
